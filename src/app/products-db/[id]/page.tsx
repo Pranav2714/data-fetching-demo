@@ -1,5 +1,5 @@
-import { getProduct } from "@/prisma-db";
-import ProductEditForm from "./product-edit-form";
+import { getProduct } from "@/app/prisma-db";
+import { ProductEditForm } from "./product-edit-form";
 import type { Product } from "@/app/products-db/page";
 import { notFound } from "next/navigation";
 
